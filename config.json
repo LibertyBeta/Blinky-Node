@@ -37,20 +37,7 @@
         }]
     },
     {
-        "menu": "Allow GOOD interupts Blue",
-        "squence": {
-            "type": "solid",
-            "time": 0.01,
-            "repeats": "none"
-        },
-        "colors": [{
-            "r": 3,
-            "g": 86,
-            "b": 209
-        }]
-    },
-    {
-        "menu": "Meeting Yellow",
+        "menu": "Allow GOOD interupts Yellow",
         "squence": {
             "type": "solid",
             "time": 0.01,
@@ -63,21 +50,35 @@
         }]
     },
     {
-        "menu": "Killing it Blue",
+        "menu": "Meeting Blue",
         "squence": {
-            "type": "breath",
+            "type": "solid",
             "time": 0.01,
             "repeats": "none"
         },
         "colors": [{
-                "r": 3,
-                "g": 86,
-                "b": 209
+            "r": 3,
+            "g": 86,
+            "b": 209
+
+        }]
+    },
+    {
+        "menu": "Killing it Yellow",
+        "squence": {
+            "type": "breath",
+            "time": 1000,
+            "repeats": "none"
+        },
+        "colors": [{
+                "r": 255,
+                "g": 255,
+                "b": 40
             },
             {
-                "r": 3,
-                "g": 86,
-                "b": 209
+                "r": 255,
+                "g": 255,
+                "b": 40
             }
         ]
     },
@@ -141,7 +142,7 @@
                 "g": 23,
                 "b": 3
             }
-            
+
         ]
     }
 ]
